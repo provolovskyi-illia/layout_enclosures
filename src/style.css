@@ -3,34 +3,24 @@ body {
   background-color: black;
 }
 
-.bigBlock {
+.outer {
   margin-bottom: 40px;
   background-color: #308dc0;
   border: 1px solid #e95d49;
   width: 348px;
 }
 
-.middleBlock {
+.middle {
+  box-sizing: border-box;
   background-color: #ffa500;
   border: 1px solid #e95d49;
-  width: 326px;
   margin: 10px;
 }
 
-.block-with-info {
+.inner {
+  box-sizing: border-box;
   margin: 10px;
   background-color: #ddd;
-  width: 284px;
   padding: 10px;
   border: 1px solid #e95d49;
-}
-
-.blockUk {
-  background-color: #ddd;
-  width: 350px;
-}
-
-.blockRu {
-  background-color: #ddd;
-  width: 350px;
 }
